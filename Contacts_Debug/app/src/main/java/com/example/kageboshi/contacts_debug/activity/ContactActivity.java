@@ -136,7 +136,7 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
 
                     @Override
                     public void onComplete() {
-
+			Log.e("TAG","Complete");
                     }
                 });
     }
